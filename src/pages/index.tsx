@@ -1,5 +1,7 @@
 //@ts-nocheck
+import { Html5Qrcode } from "html5-qrcode";
 import { useEffect, useRef } from "react";
+
 export default function Home() {
   const readerRef = useRef(null);
   const resultRef = useRef(null);
